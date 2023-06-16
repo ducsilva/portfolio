@@ -1,14 +1,13 @@
-import React from "react";
-import "./style.css";
+import { Col, Container, Row } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
   meta,
-  worktimeline,
-  skills,
   services,
-} from "../../content_option";
+  skills,
+  worktimeline,
+} from "utils/mockData";
+import "./style.css";
 
 export const About = () => {
   return (
@@ -26,20 +25,21 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="3">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="9" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>{dataabout.aboutfe}</p>
+              <p>{dataabout.aboutbe}</p>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="5">
+          <Col lg="3">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
@@ -56,10 +56,10 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="3">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             {skills.map((data, i) => {
               return (
                 <div key={i}>
@@ -80,10 +80,10 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lg="3">
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>

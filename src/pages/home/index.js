@@ -1,9 +1,8 @@
-import React from "react";
-import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
+import { introdata, meta } from "utils/mockData";
+import "./style.css";
 
 export const Home = () => {
   return (
@@ -38,10 +37,10 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                <div className="intro_btn-action pb-2">
+                  <Link to="/my-experience" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      My Experience
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -55,6 +54,21 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                </div>
+                <div className="intro_btn-action pb-5 align-self-center">
+                  <a
+                    href="https://drive.google.com/file/d/19qVxEVH9ygGh4vslIQFfEMcsQbIut1Jl/view?usp=sharing"
+                    target="_blank"
+                    className="text_2"
+                    rel="noreferrer"
+                  >
+                    <div id="button_h" className="ac_btn btn ">
+                      Get My CV
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
