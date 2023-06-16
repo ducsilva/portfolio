@@ -41,7 +41,7 @@ const Headermain = () => {
                   <li className="menu_item">
                     <Link
                       onClick={handleToggle}
-                      to="//my-experience"
+                      to="/my-experience"
                       className="my-3"
                     >
                       {" "}
