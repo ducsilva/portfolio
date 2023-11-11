@@ -28,7 +28,7 @@ const dataabout = {
 const worktimeline = [
   {
     jobtitle: "React Native Developer",
-    where: "Tavico Digital JSC",
+    where: "Friendify Company Limited",
     date: "10/2022 - Present",
   },
   {
