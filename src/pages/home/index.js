@@ -57,7 +57,7 @@ export const Home = () => {
                 </div>
                 <div className="intro_btn-action pb-5 align-self-center">
                   <a
-                    href="https://drive.google.com/file/d/19qVxEVH9ygGh4vslIQFfEMcsQbIut1Jl/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Lk_F5b7QCwaB53hkqRQ-TGu6ygQjuOka/view?usp=sharing"
                     target="_blank"
                     className="text_2"
                     rel="noreferrer"

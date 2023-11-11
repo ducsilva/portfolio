@@ -75,14 +75,14 @@ const dataportfolio = [
   {
     img: "https://res.cloudinary.com/dxs1zdei2/image/upload/v1686900040/My%20website/company_r6dbsj.jpg",
     description: "Best business administration solution supplier",
-    link: "https://tavicosoft.com/",
-    comany: "Tavico Digital JSC",
+    link: "https://app.friendify.ai",
+    comany: "FRIENDIFY AI Company limited",
     job: {
       title: "React Native Developer",
       date: "Oct 2022 - Present",
       description:
-        "Build an E-Approval app,  Customer App that helps users handle requests, view news, contract, apartments",
-      programming: "Languages programming: React Native, Redux, Redux-Saga",
+        "Building Friendify AI App",
+      programming: "Languages programming: React Native, Redux Toolkit, Redux-Saga, NestJS, MySQL",
     },
   },
   {
